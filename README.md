@@ -1,4 +1,4 @@
-# Introduction adn Study Design
+# Introduction and Study Design
 
 This repository contains an R script for processing Samsung cell phone motion data.  The data was accumulated by having a group of people wear a Samsung Galaxy II cell phone at their waist and perform certain physical activities. The script in this repository processes the raw data (source links below) by combining data from multiple text files and labeling the data in R.  Although the raw dataset contains many values, only mean and standard deviation values are included in the output.  These values are correlated with the activity and the test subject (person).
 The result is a "tidy" data set containing data values which are an average of available values collected for each activity and person.
@@ -12,16 +12,13 @@ To use the the script:
     setwd('c:\path\to\raw\data')
 ~~~
 2. Load the script:
-
 ~~~R
     source('run_analysis.r')
 ~~~
-
 3. Run the analysis script and capture the results:
 ~~~R
     results <- run_analysis()
 ~~~
-
 4. Optionally, the results can be saved using a helper function.  The results are written to a file with the given name:
 ~~~R
     run_analysis_write_output("tidy_data_output_file.txt")
