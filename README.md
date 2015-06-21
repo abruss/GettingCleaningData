@@ -7,25 +7,29 @@ The result is a "tidy" data set containing data values which are an average of a
 
 To use the the script:
 
-1. Start the R environment and change the working directory to the location of the raw data.  Example:
+* Start the R environment and change the working directory to the location of the raw data.  Example:
 
 ```r
 setwd('c:\path\to\raw\data')
 ```
 
-2. Load the script:
-    
+* Load the script:
+ 
+```r   
     source('run_analysis.r')
-    
-3. Run the analysis script and capture the results:
+```
 
+* Run the analysis script and capture the results:
+
+```r
     results <- run_analysis()
-    
-4. Optionally, the results can be saved using a helper function.  The results are written to a file with the given name:
+```
 
-~~~
+* Optionally, the results can be saved using a helper function.  The results are written to a file with the given name:
+
+```r
     run_analysis_write_output("tidy_data_output_file.txt")
-~~~
+```
 
 The raw data is available from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  A description of the data can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
