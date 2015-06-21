@@ -51,16 +51,16 @@ fBodyAcc.std...Z        |
 fBodyAcc.meanFreq...X   |        
 fBodyAcc.meanFreq...Y   |        
 fBodyAcc.meanFreq...Z   |        
-fBodyAccJerk.mean...X   |        
+fBodyAccJerk.mean...X   |        Mean body acceleration jerk in the frequency domain and the X direction
 fBodyAccJerk.mean...Y   |       
 fBodyAccJerk.mean...Z   |        
-fBodyAccJerk.std...X    |        
+fBodyAccJerk.std...X    |        Standard deviation of body acceleration jerk in the frequency domain and X direction
 fBodyAccJerk.std...Y    |        
 fBodyAccJerk.std...Z    |       
 fBodyAccJerk.meanFreq...X|       
 fBodyAccJerk.meanFreq...Y|       
 fBodyAccJerk.meanFreq...Z|       
-fBodyGyro.mean...X      |       
+fBodyGyro.mean...X      |       Mean body angular momentum in the frequency domain and the X direction
 fBodyGyro.mean...Y      |        
 fBodyGyro.mean...Z      |        
 fBodyGyro.std...X       |        
@@ -69,7 +69,7 @@ fBodyGyro.std...Z       |
 fBodyGyro.meanFreq...X  |        
 fBodyGyro.meanFreq...Y  |        
 fBodyGyro.meanFreq...Z  |       
-fBodyAccMag.mean..      |        
+fBodyAccMag.mean..      |       Mean body acceleration magnitude in the frequency domain and the X direction 
 fBodyAccMag.std..       |        
 fBodyAccMag.meanFreq..  |        
 fBodyBodyAccJerkMag.mean..|     
