@@ -1,5 +1,7 @@
 # Complete feature list for cell phone motion data tidy data output
                             
+Feature Name                    Feature Description
+------------------------        -------------------------------------------------------------------
 tBodyAcc.mean...X               Average body acceleration in the X axis
 tBodyAcc.mean...Y               Average body acceleration in the Y axis
 tBodyAcc.mean...Z               Average body acceleration in the Z axis
